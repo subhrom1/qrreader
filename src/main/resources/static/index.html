@@ -1,0 +1,20 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Scanner - Secure QR Code</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <script src="js/qrreader.js"></script>
+    <link rel="stylesheet" href="css/qrreader.css">
+</head>
+<body>
+<header>
+    <div class="overlay">
+        <h1>Secure QR Code Scanner</h1>
+        <h3>Secure QR Codes cannot be manipulated. Upload the Secure QR Code to be scanned.</h3>
+        <p><input id="fileupload" type="file" name="fileupload"  accept="image/*"/> </p> <br><br>
+            <button id="upload-button" onclick="uploadFile()">Upload for Scan</button>
+    </div>
+</header>
+<div class="qrmessage" id="qrmsg" />
+</body>
+</html>
